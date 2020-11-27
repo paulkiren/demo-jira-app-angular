@@ -1,0 +1,8 @@
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+  <div>
+    <label for="ticket"> Address </label>
+    <input id="ticket" type="text" formControlName="address" />
+  </div>
+
+  <button class="button" type="submit">Add Ticket</button>
+</form>
