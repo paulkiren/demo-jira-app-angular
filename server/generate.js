@@ -3,7 +3,7 @@ var faker = require('faker');
 
 var database = { tickets: [] };
 
-for (var i = 1; i<= 300; i++) {
+for (var i = 1; i<= 30; i++) {
   database.tickets.push({
     id: faker.git.commitSha(),
     name: faker.commerce.productAdjective(),
